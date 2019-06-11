@@ -46,8 +46,9 @@
 	var points;
 	var speed;
 	var direction;
+	var randNum = Math.random() * 500;
 
-	position = 0;
+	position = randNum;
 	points = 0;
 	speed = 10;
 	direction = 1;
@@ -79,7 +80,7 @@
 				box.on('click', handleBoxClick);	
 				points += 1;           // increase the point total
 				box.text(points);      // update the new points total displayed by the box
-				position = 0;         // reset the position of the box to 0
+				position = randNum;         // reset the position of the box to 0
 				speed += 1;    // increase the speed of the box on every click
 			}
 
