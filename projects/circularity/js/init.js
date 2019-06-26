@@ -69,7 +69,7 @@ var init = function (window) {
             // TODO 4 : Update the circle's position //
 
             
-            // TODO 5 : Call game.checkCirclePosition on your circles.
+            // TODO 5 : Call game.checkCirclePosition on your circles.  
 
             // TODO 8 : Iterate over the array
                 for(var i = 0; i < circles.length; i++) {
